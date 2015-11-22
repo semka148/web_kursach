@@ -1,0 +1,104 @@
+
+#map{
+	width: 240px;
+    height: 240px;
+}
+#map div {
+		border: 1px;
+		solid: red;
+		float: left;
+		width: 14px;
+		height: 14px;
+		background-color: white;
+		}
+#map div.d--1{
+			background-color: black;
+}
+#map div.d-1{
+			background-color: green;
+}
+
+#board{
+	width: 576px;
+	height: 576px;
+}
+	#board div {
+		float: left;
+		width: 62px;
+		height: 62px;
+		background-image: url(images/style-network.png);
+}
+.fig-1 {
+		background-position-x: -128px;
+}
+	.fig-1.deg-90{
+			background-position-x: -192px;
+		}
+
+	.fig-1.deg-180{
+			background-position-x: -256px;
+		}
+	.fig-1.deg-270{
+			background-position-x: -320px;
+		}
+
+.fig-2{
+		background-position-x: -128px;
+		background-position-y: -64px;
+}
+	.fig-2.on{
+			background-position-x: -192px;
+}
+	.fig-2.deg-90{
+			background-position-x: -128px;
+}
+.fig-3{
+		background-position-x: -256px;
+		background-position-y: -64px;
+}
+	.fig-3.on{
+			background-position-x: -320px;
+}
+	.fig-3.deg-90{
+			background-position-y: -128px;
+}
+	.fig-3.deg-180{
+			background-position-y: -192px;
+}
+	.fig-3.deg-270{
+			background-position-y: -256px;
+}
+ 
+	.fig-4{
+		background-position-x: -384px;
+		background-position-y: -64px;
+}
+		.fig-4.on{
+					background-position-x: -448px;
+		}
+		.fig-4.deg-90{
+					background-position-y: -128px;
+		}
+		.fig-4.deg-180{
+					background-position-y: -192px;
+		}
+		.fig-4.deg-270{
+					background-position-y: -256px;
+		}
+
+	.fig-5{
+			background-position-x: 0px;
+			background-position-y: -64px;
+	}
+		.fig-5.on{
+					background-position-x: -64px;
+		}
+		.fig-5.deg-90{
+					background-position-y: -128px;
+		}
+		.fig-5.deg-180{
+					background-position-y: -192px;
+		}
+		.fig-5.deg-270{
+					background-position-y: -256px;
+		}

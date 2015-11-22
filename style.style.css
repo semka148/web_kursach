@@ -1,0 +1,32 @@
+
+
+#map{
+	width: 16*15px;
+	height: 16*15px;
+}
+#map div {
+		border: 1px; 
+		solid: red;
+		float: left;
+		width: 14px;
+		height: 14px;
+		background-color: white;
+		}
+#map div.d--1{
+			background-color: black;
+}
+#map div.d-1{
+			background-color: green;
+}
+
+#board{
+	width: 64px*9;
+	height: 64px*9;
+}
+	#board div {
+		float: left;
+		width: 64px - 2px;
+		height: 64px - 2px;
+		background-image: url(images/style-network.png);
+}
+	
